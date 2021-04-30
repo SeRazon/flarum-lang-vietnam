@@ -347,7 +347,7 @@ core:
       invalid_login_message: Thông tin không chính xác.
       password_placeholder: => core.ref.password
       remember_me_label: Ghi nhớ
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      sign_up_text: "Bạn không có tài khoản? <a>Đăng ký ngay</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: nickname hoặc email
