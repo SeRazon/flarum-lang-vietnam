@@ -33,10 +33,10 @@ flarum-tags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Cho phép sửa danh mục
+      allow_edit_tags_label: Sửa danh mục
       bypass_tag_counts_label: Bỏ qua bắt buộc chọn danh mục
       restrict_by_tag_heading: Hạn chế bằng danh mục
-      tag_discussions_label: Danh mục bài viết
+      tag_discussions_label: Gắn danh mục các bài viết
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
@@ -70,7 +70,7 @@ flarum-tags:
       choose_secondary_placeholder: "Chọn thêm 1 danh mục|Chọn thêm {count} danh mục"
       edit_title: "Sửa danh mục cho {title}"
       submit_button: => core.ref.okay
-      title: Chọn danh mục cho bài viết của bạn
+      title: Danh mục cho bài viết
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:

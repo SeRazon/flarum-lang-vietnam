@@ -45,7 +45,7 @@ core:
       show_language_selector_label: Hiện mục đổi ngôn ngữ
       slug_driver_heading: "Slug Driver: {model}"
       slug_driver_text: Select a driver to be used for slugging this model.
-      title: Basics
+      title: Cơ bản
       welcome_banner_heading: Biểu ngữ chào mừng
       welcome_banner_text: Cấu hình văn bản hiển thị trong biểu ngữ trên trang Tất cả diễn đàn. Sử dụng điều này để chào mừng khách đến với diễn đàn của bạn.
 
@@ -167,8 +167,8 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Cho phép bình luận
-      allow_renaming_label: Cho phép đổi tên
+      allow_post_editing_label: Được phép bình luận
+      allow_renaming_label: Được phép đổi tên
       create_heading: Tạo
       delete_discussions_forever_label: Xoá vĩnh viễn bài viết
       delete_discussions_label: Xoá bài viết
@@ -194,7 +194,7 @@ core:
       view_hidden_groups_label: Xem huy hiệu nhóm ẩn
       view_last_seen_at_label: Xem người dùng xem lần cuối cùng
       view_post_ips_label: Xem IP đăng
-      view_user_list_label: Xem danh sách thành viên
+      view_user_list_label: Xem danh sách người dùng
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -630,7 +630,7 @@ core:
     settings: Cài đặt
     sign_up: Đăng ký
     some_others: "{count} khác|{count} khác"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Đăng một bài mới
+    start_a_discussion: Đăng bài viết mới
     username: Username
     users: Người dùng                                 # Referenced by flarum-statistics.yml
     view: Xem

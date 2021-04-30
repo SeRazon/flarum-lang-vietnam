@@ -14,9 +14,9 @@ fof-subscribed:
         menu:
             description: Cấu hình (mặc định) đăng ký của người dùng
         permission:
-            subscribe_to_discussion_created: Nhận thông báo về bài viết mới
-            subscribe_to_post_unapproved: Nhận thông báo về bình luận mới chưa được duyệt
-            subscribe_to_user_created: Nhận thông báo về người dùng mới
+            subscribe_to_discussion_created: Thông báo về bài viết mới
+            subscribe_to_post_unapproved: Thông báo bình luận mới chờ phê duyệt
+            subscribe_to_user_created: Thông báo về người đăng ký mới
     email:
         subject:
             newDiscussion: "[Subscribed | New Discussion] {title}"
