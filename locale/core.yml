@@ -91,7 +91,7 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Địa chỉ
-      description: "Cấu hình thư điện tử cho diễn đàn có thể sử dụng để gửi Email."
+      description: "Cấu hình email cho diễn đàn có thể sử dụng để gửi Email."
       driver_heading: Chọn một phương thức
       driver_label: phương thức
       from_label: Người gửi
@@ -594,7 +594,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: Tất cả chuyên mục
+    all_discussions: Tất cả danh mục
     change_email: Thay đổi Email
     change_password: Thay đổi mật khẩu
     color: Màu sắc                                 # Referenced by flarum-tags.yml
@@ -606,9 +606,9 @@ core:
     custom_header_title: Thay đổi mã đầu trang
     delete: Xoá
     delete_forever: Xoá vĩnh viễn
-    discussions: Diễn đàn                     # Referenced by flarum-statistics.yml
+    discussions: Bài viết                     # Referenced by flarum-statistics.yml
     edit: Sửa
-    email: Thư điện tử
+    email: Email
     icon: Icon
     icon_text: "Nhập tên class của <a>FontAwesome</a>, <em>bao gồm</em> tiền tố <code>fas fa-</code>."
     load_more: Xem thêm
@@ -619,7 +619,7 @@ core:
     notifications: Thông báo
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Mật khẩu
-    posts: Đăng                                 # Referenced by flarum-statistics.yml
+    posts: Bình luận                                 # Referenced by flarum-statistics.yml
     previous_page: Trang trước
     remove: Loại bỏ
     rename: Đổi tên

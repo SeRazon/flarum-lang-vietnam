@@ -1,0 +1,35 @@
+fof-user-directory:
+    forum:
+        header:
+            back_to_user_directory_tooltip: Quay lại danh sách người dùng
+
+        search:
+            users_heading: 'Tìm kiếm tất cả người dùng cho "{query}"'
+            field:
+                placeholder: Tìm kiếm tất cả người dùng
+        page:
+            nav: Danh sách người dùng
+            refresh_tooltip: => core.forum.index.refresh_tooltip
+            load_more_button: => core.ref.load_more
+            empty_text: Không tìm thấy người dùng nào phù hợp với tìm kiếm của bạn.
+            filter_button: Lọc nhóm
+
+    admin:
+        permissions:
+            view_user_directory: Xem danh sách người dùng
+        settings:
+            link: Thêm liên kết tại trang chủ để truy cập nhanh
+            default-sort: Sắp xếp mặc định
+
+    lib:
+        sort:
+            not_specified: Sử dụng mặc định của Flarum
+            default: Mặc định
+            username_az: Người dùng (a-z)
+            username_za: Người dùng (z-a)
+            newest: Mới nhất
+            oldest: Cũ nhất
+            most_posts: Bình luận nhiều
+            least_posts: Bình luận ít
+            most_discussions: Đăng bài nhiều
+            least_discussions: Đăng bài ít

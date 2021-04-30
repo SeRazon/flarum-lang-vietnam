@@ -1,0 +1,116 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: Xoá danh mục
+      delete_tag_confirmation: "Bạn có chắc muốn xoá danh mục này? Các bài viết bên trong sẽ KHÔNG bị xoá."
+      description_label: Mô tả
+      hide_label: Ẩn khỏi tất cả các bài viết
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug (URL)
+      submit_button: => core.ref.save_changes
+      title: Tạo danh mục
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Quản lý danh sách danh mục hiện có để tổ chức các bài viết với.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Cho phép sửa danh mục
+      bypass_tag_counts_label: Bỏ qua bắt buộc chọn danh mục
+      restrict_by_tag_heading: Hạn chế bằng danh mục
+      tag_discussions_label: Danh mục bài viết
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " tới "
+      required_primary_heading: Số lượng danh mục chính bắt buộc chọn
+      required_primary_text: Số lượng danh mục chính tối thiểu và tối đa để áp dụng cho một bài viết.
+      required_secondary_heading: Số lượng danh mục phụ bắt buộc
+      required_secondary_text: Số lượng danh mục phụ tối thiểu và tối đa để áp dụng cho một bài viết.
+      title: Cài đặt danh mục
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Danh mục được sử dụng để phân loại các bài viết. Các danh mục chính giống như các danh mục diễn đàn truyền thống: chúng có thể được sắp xếp theo hệ thống phân cấp hai cấp. Các danh mục phụ không có thứ bậc hoặc thứ tự và rất hữu ích cho việc phân loại vi mô."
+      create_primary_tag_button: Tạo danh mục chính
+      create_secondary_tag_button: Tạo danh mục phụ
+      primary_heading: Danh mục chính
+      secondary_heading: Danh mục phụ
+      settings_heading: Cài đặt
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed on the page that lists all tags.
+    all_tags:
+      meta_description_text: Tất cả danh mục
+      meta_title_text: => flarum-tags.ref.tags
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Chọn một danh mục chính|Chọn {count} danh mục chính"
+      choose_secondary_placeholder: "Chọn thêm 1 danh mục|Chọn thêm {count} danh mục"
+      edit_title: "Sửa danh mục cho {title}"
+      submit_button: => core.ref.okay
+      title: Chọn danh mục cho bài viết của bạn
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Chọn danh mục
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Sửa danh mục
+
+    header:
+      back_to_tags_tooltip: Quay lại danh sách danh mục
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Thêm...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Không chọn danh mục
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_and_removed_tags_text: "{username} đã thêm {tagsAdded} và loại bỏ {tagsRemoved}."
+      added_tags_text: "{username} đã thêm {tagsAdded}."
+      removed_tags_text: "{username} loại bỏ {tagsRemoved}."
+      tags_text: "{tags} danh mục|{tags} danh mục"
+
+    # These translations are used when visiting a single tag's discussion list.
+    tag:
+      meta_description_text: "Tất cả bài viết với danh mục {tag}"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Đã xoá
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    name: Tên
+    tags: Danh mục

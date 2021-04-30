@@ -1,0 +1,54 @@
+fof-subscribed:
+    forum:
+        settings:
+            defaults_label: Đặt "{setting}" kích hoạt theo mặc định
+            forced_label: Bắt buộc kích hoạt "{setting}" với mọi người
+            notify_discussion_created_label: Ai đó tạo bài viết
+            notify_post_unapproved_label: Một bài viết cần được phê duyệt
+            notify_user_created_label: Khi ai đó đăng ký
+        notifications:
+            discussion_created_text: "{username} đã viết bài mới"
+            post_unapproved_text: "{username} đã bình luận cần phê duyệt "
+            user_created_text: "{username} had just signed up"
+    admin:
+        menu:
+            description: Cấu hình (mặc định) đăng ký của người dùng
+        permission:
+            subscribe_to_discussion_created: Nhận thông báo về bài viết mới
+            subscribe_to_post_unapproved: Nhận thông báo về bình luận mới chưa được duyệt
+            subscribe_to_user_created: Nhận thông báo về người dùng mới
+    email:
+        subject:
+            newDiscussion: "[Subscribed | New Discussion] {title}"
+            newUser: "[Subscribed | New User] {username}"
+            postUnapproved: "[Subscribed | Unapproved] {username} đăng trong {title}"
+        body:
+            newDiscussion: |
+                Chào {recipient_display_name},
+
+                {actor_display_name} đã đăng một bài viết mới: {discussion_title}
+
+                Để xem bài viết mới này, hãy xem liên kết sau:
+                {discussion_url}
+
+                ---
+
+                {post_content}
+            newUser: |
+                Chào {recipient_display_name},
+
+                {actor_display_name} vừa mới đăng ký {forum_url}.
+
+                Để xem hồ sơ của người dùng mới này, hãy xem liên kết sau:
+                {user_url}
+            postUnapproved: |
+                Chào {recipient_display_name},
+
+                {actor_display_name} đã bình luận chưa được phê duyệt tự động trong {discussion_title}
+
+                Để xem bình luận này, hãy xem liên kết sau:
+                {post_url}
+
+                ---
+
+                {post_content}
