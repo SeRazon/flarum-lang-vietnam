@@ -53,7 +53,7 @@ core:
     dashboard:
       clear_cache_button: Xoá bộ nhớ đệm
       description: Tổng quan diễn đàn của bạn.
-      title: Điều khiển
+      title: Khu vực quản trị
       tools_button: Công cụ
 
     # These translations are used in the Edit Custom CSS modal dialog.
