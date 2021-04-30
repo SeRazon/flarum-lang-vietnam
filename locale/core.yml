@@ -269,7 +269,7 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Không thể bình luận
+      cannot_reply_button: Khoá bình luận
       cannot_reply_text: Bạn không có quyền bình luận bài viết này.
       delete_button: => core.ref.delete
       delete_confirmation: "Bạn có chắc muốn xóa bài viết này không?"
@@ -326,7 +326,7 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Không thể đăng bài mới
+      cannot_start_discussion_button: Khoá đăng bài
       mark_all_as_read_confirmation: "Bạn có chắc muốn đánh dấu là đã đọc tất cả bài viết không?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       meta_title_text: => core.ref.all_discussions

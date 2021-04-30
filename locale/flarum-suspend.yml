@@ -15,7 +15,7 @@ flarum-suspend:
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} đình chỉ bạn vì {timeReadable}"
+      user_suspended_text: "{username} đã đình chỉ bạn {timeReadable}"
       user_unsuspended_text: "{username} bỏ đình chỉ bạn"
 
     # These translations are used in the Suspend User modal dialog (admin function).
