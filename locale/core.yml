@@ -35,13 +35,13 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Ngôn ngữ mặc định
       description: "Chọn tiêu đề, ngôn ngữ, và các cài đặt cơ bản khác cho diễn đàn của bạn."
-      display_name_heading: Hiện thị tên người dùng
-      display_name_text: Chọn cách thức để hiện tên người dùng. Mặc định, nickname là hiện.
+      display_name_heading: Hiện thị tên thành viên
+      display_name_text: Chọn cách thức để hiện tên thành viên. Mặc định, nickname là hiện.
       forum_description_heading: Mô tả diễn đàn
       forum_description_text: Nhập một hoặc hai câu ngắn mô tả diễn đàn của bạn. Điều này sẽ xuất hiện trong thẻ meta và hiển thị trong các công cụ tìm kiếm.
       forum_title_heading: Tiêu đề diễn đàn
       home_page_heading: Trang chủ
-      home_page_text: Chọn trang mà người dùng sẽ nhìn thấy đầu tiên khi họ truy cập diễn đàn của bạn.
+      home_page_text: Chọn trang mà thành viên sẽ nhìn thấy đầu tiên khi họ truy cập diễn đàn của bạn.
       show_language_selector_label: Hiện mục đổi ngôn ngữ
       slug_driver_heading: "Slug Driver: {model}"
       slug_driver_text: Select a driver to be used for slugging this model.
@@ -192,7 +192,7 @@ core:
       title: Quyền hạn
       view_discussions_label: Xem bài viết
       view_hidden_groups_label: Xem huy hiệu nhóm ẩn
-      view_last_seen_at_label: Xem người dùng xem lần cuối cùng
+      view_last_seen_at_label: Xem thành viên xem lần cuối cùng
       view_post_ips_label: Xem IP đăng
       view_user_list_label: Xem danh sách thành viên
 
@@ -307,7 +307,7 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: Chúng tôi đã gửi cho bạn một email chứa liên kết để đặt lại mật khẩu của bạn. Kiểm tra thư mục thư rác của bạn nếu bạn không nhận được nó trong vòng một hoặc hai phút tới.
-      not_found_message: Không có người dùng nào đăng ký với địa chỉ email này.
+      not_found_message: Không có thành viên nào đăng ký với địa chỉ email này.
       submit_button: Khôi phục mật khẩu
       text: Nhập địa chỉ email của bạn và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu của bạn.
       title: Quên mật khẩu
@@ -444,9 +444,9 @@ core:
     user_controls:
       button: Điều khiển
       delete_button: => core.ref.delete
-      delete_confirmation: "Bạn có chắc chắn muốn xóa người dùng này không? Bài viết của người dùng sẽ KHÔNG bị xóa."
-      delete_error_message: "Không xóa được người dùng <i> {username} ({email}) </i>"
-      delete_success_message: "Người dùng <i> {username} ({email}) </i> đã bị xóa"
+      delete_confirmation: "Bạn có chắc chắn muốn xóa thành viên này không? Bài viết của thành viên sẽ KHÔNG bị xóa."
+      delete_error_message: "Không xóa được thành viên <i> {username} ({email}) </i>"
+      delete_success_message: "Thành viên <i> {username} ({email}) </i> đã bị xóa"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -532,7 +532,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "Tên người dùng chỉ có thể chứa các chữ cái, số và dấu gạch dưới."
+    invalid_username_message: "Tên thành viên chỉ có thể chứa các chữ cái, số và dấu gạch dưới."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -632,7 +632,7 @@ core:
     some_others: "{count} khác|{count} khác"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: VIẾT BÀI
     username: Tên tài khoản
-    users: Người dùng                                 # Referenced by flarum-statistics.yml
+    users: Thành viên                                 # Referenced by flarum-statistics.yml
     view: Xem
     write_a_reply: Đăng bình luận...
     you: Bạn                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
