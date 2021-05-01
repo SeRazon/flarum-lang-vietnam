@@ -17,7 +17,7 @@ flarum-tags:
       delete_tag_button: Xoá danh mục
       delete_tag_confirmation: "Bạn có chắc muốn xoá danh mục này? Các bài viết bên trong sẽ KHÔNG bị xoá."
       description_label: Mô tả
-      hide_label: Ẩn khỏi tất cả các bài viết
+      hide_label: Ẩn bài viết khỏi trang chủ
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name

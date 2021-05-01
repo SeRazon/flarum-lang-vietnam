@@ -594,7 +594,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: Tất cả danh mục
+    all_discussions: Tất cả bài viết
     change_email: Thay đổi Email
     change_password: Thay đổi mật khẩu
     color: Màu sắc                                 # Referenced by flarum-tags.yml
