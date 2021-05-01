@@ -149,12 +149,12 @@ core:
       basics_title: => core.admin.basics.description
       categories:
         authentication: Xác thực
-        core: Core Configuration
+        core: Cài đặt hệ thống
         discussion: Bài viết
         feature: Tính năng
         formatting: Định dạng
         language: Ngôn ngữ
-        moderation: Moderation
+        moderation: Ban quản trị
         other: Tiện ích khác
         theme: Giao diện
       dashboard_button: => core.admin.dashboard.title
@@ -532,7 +532,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "Tên thành viên chỉ có thể chứa các chữ cái, số và dấu gạch dưới."
+    invalid_username_message: "Tên tài khoản phải là các chữ cái không dấu, số và dấu gạch dưới."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -611,7 +611,7 @@ core:
     email: Email
     icon: Icon
     icon_text: "Nhập class của <a>FontAwesome</a>, <em>bao gồm</em> tiền tố <code>fas fa-</code>."
-    load_more: XEM THÊM BÀI MỚI
+    load_more: XEM THÊM
     log_in: Đăng nhập
     log_out: Đăng xuất
     mark_all_as_read: Đánh dấu tất cả đã đọc
