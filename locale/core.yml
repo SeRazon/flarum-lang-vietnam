@@ -139,7 +139,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Đang tải...
+      title: Chờ chút nhé...
 
     # These translations are used in the navigation bar.
     nav:
@@ -630,7 +630,7 @@ core:
     settings: Cài đặt
     sign_up: Đăng ký
     some_others: "{count} khác|{count} khác"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Viết Bài
+    start_a_discussion: VIẾT BÀI
     username: Tên tài khoản
     users: Người dùng                                 # Referenced by flarum-statistics.yml
     view: Xem
