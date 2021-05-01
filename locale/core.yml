@@ -139,7 +139,7 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Xin chờ...
+      title: Chờ chút nhé...
 
     # These translations are used in the navigation bar.
     nav:
@@ -194,11 +194,11 @@ core:
       view_hidden_groups_label: Xem huy hiệu nhóm ẩn
       view_last_seen_at_label: Xem người dùng xem lần cuối cùng
       view_post_ips_label: Xem IP đăng
-      view_user_list_label: Xem danh sách người dùng
+      view_user_list_label: Xem danh sách thành viên
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Vô hạn
+      allow_indefinitely_button: Không giới hạn
       allow_some_minutes_button: "Cứ {count} phút|Cứ {count} phút"
       allow_ten_minutes_button: Cứ 10 phút
       allow_until_reply_button: Thời gian chờ cho từng bình luận
@@ -270,7 +270,7 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: Khoá bình luận
-      cannot_reply_text: Bạn không có quyền bình luận bài viết này.
+      cannot_reply_text: Bạn không được bình luận bài này.
       delete_button: => core.ref.delete
       delete_confirmation: "Bạn có chắc muốn xóa bài viết này không?"
       delete_forever_button: => core.ref.delete_forever
@@ -281,7 +281,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Không có bài viết nào ở đây.
+      empty_text: Không có bài viết.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Đánh dấu đã đọc
       replied_text: "{username} đã bình luận {ago}"
@@ -610,8 +610,8 @@ core:
     edit: Sửa
     email: Email
     icon: Icon
-    icon_text: "Nhập tên class của <a>FontAwesome</a>, <em>bao gồm</em> tiền tố <code>fas fa-</code>."
-    load_more: Xem thêm
+    icon_text: "Nhập class của <a>FontAwesome</a>, <em>bao gồm</em> tiền tố <code>fas fa-</code>."
+    load_more: XEM THÊM BÀI MỚI
     log_in: Đăng nhập
     log_out: Đăng xuất
     mark_all_as_read: Đánh dấu tất cả đã đọc
@@ -630,8 +630,8 @@ core:
     settings: Cài đặt
     sign_up: Đăng ký
     some_others: "{count} khác|{count} khác"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Đăng bài viết mới
-    username: Username
+    start_a_discussion: Viết Bài
+    username: Tên tài khoản
     users: Người dùng                                 # Referenced by flarum-statistics.yml
     view: Xem
     write_a_reply: Đăng bình luận...
